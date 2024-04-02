@@ -1,0 +1,80 @@
+  body {
+    background-color: #350e30;
+    background-size: cover;
+    height: 100%;
+  }
+
+  /* Top text */
+  .banner {
+    background-color: black;
+    width: 100%;
+    height: 103px;
+    padding: 0px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 6px 6px rgb(46, 22, 43)
+  }
+
+  /* Middle Text*/
+  .mid {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    padding: 0px;
+    text-indent: 8px;
+    margin-top: 20px;
+    display: inline-block;
+    color: white;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 6px 6px rgb(46, 22, 43)
+  }
+
+  /* Bottom Text for links*/
+  .foot {
+    background-color: black;
+    width: 100%;
+    height: 160px;
+    padding: 0px;
+    text-indent: 8px;
+    display: inline-block;
+    color: white;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 6px 6px rgb(46, 22, 43)
+  }
+
+  /* Making the links READABLE so it isn't dark text on dark text...*/
+  .pleasejustmakethetextreadable a:visited{
+    color: rgb(102, 165, 238);
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: purple;
+  }
+
+  .gitpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    display: flex;
+    background-color: purple;
+    border-radius: 2px 2px 2px 2px;
+}
+
+  /* Inner box for main body of text*/
+  .buzz {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: purple;
+  }
